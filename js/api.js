@@ -6,7 +6,7 @@
 
 const API = (() => {
 
-  const BASE_URL = 'http://192.168.1.5:5000/api';   // Change to production URL when deploying
+  const BASE_URL = 'http://icct-chatbot.onrender.com/api';   // Change to production URL when deploying
 
   /** Send a chat message and receive the bot response */
   async function sendMessage(message, sessionId) {
